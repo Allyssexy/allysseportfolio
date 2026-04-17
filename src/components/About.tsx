@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Download, Palette, Camera, Clapperboard, Monitor } from 'lucide-react';
-import allysse from "../assets/allysse.jpg";
+import allysse from "../assets/Allysse.jpg";
 import cv from "../assets/Allysse-Resume.pdf";
 export const About = () => {
   const skills = [
