@@ -50,7 +50,7 @@ import Zerowaste2 from "./assets/Zerowaste2.jpg";
 import Zerowaste3 from "./assets/Zerowaste3.jpg";
 import Zerowaste4 from "./assets/Zerowaste4.jpg";
 import Platetoplanetlogo from "./assets/Platetoplanet.png";
-import Voiceforthevoicelesslogo from "./assets/Voiceforthevoicelesslogo.png";
+import Voiceforthevoicelesslogo from "./assets/VoiceforthevoicelessLogo.png";
 import Voiceforthevoiceless1 from "./assets/Voiceforthevoiceless1.jpg";
 import Voiceforthevoiceless2 from "./assets/Voiceforthevoiceless2.jpg";
 import Voiceforthevoiceless3 from "./assets/Voiceforthevoiceless3.jpg";
