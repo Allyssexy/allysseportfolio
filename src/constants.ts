@@ -149,7 +149,7 @@ export const PROJECTS: Project[] = [
     category: 'Web Design',
     tools: ['Adobe Dreamweaver'],
     concept: 'A website design raising awareness about animal cruelty and encouraging action through education and a reporting feature.',
-    image: VoiceforthevoicelessLogo,
+    image: Voiceforthevoicelesslogo,
     gallery: [Voiceforthevoiceless1, Voiceforthevoiceless2, Voiceforthevoiceless3, Voiceforthevoiceless4, Voiceforthevoiceless5, Voiceforthevoiceless6, Voiceforthevoiceless7]
   },
 
