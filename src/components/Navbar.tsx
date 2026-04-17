@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import cv from "../assets/Allysse-Resume.pdf";
 
 export const Navbar = () => {
   const navItems = [
@@ -31,7 +30,7 @@ export const Navbar = () => {
             </a>
           ))}
           <a 
-  href={cv}
+  href="/Allysse-Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-5 py-2 bg-dopa-purple text-white text-[10px] font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-transform"
