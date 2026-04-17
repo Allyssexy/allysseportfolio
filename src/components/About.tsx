@@ -1,7 +1,6 @@
 import { motion } from 'motion/react';
 import { Download, Palette, Camera, Clapperboard, Monitor } from 'lucide-react';
 import allysse from "../assets/Allysse.jpg";
-import cv from "../assets/Allysse-Resume.pdf";
 export const About = () => {
   const skills = [
     { name: 'Graphic Design', icon: Palette, color: 'text-dopa-pink', bg: 'bg-dopa-pink/5' },
@@ -35,8 +34,8 @@ I create visual and motion design work while exploring and learning along the wa
           >
             <div className="w-[300px] h-[350px] md:w-[400px] md:h-[500px] rounded-[60px] overflow-hidden relative shadow-2xl group border-[12px] border-white">
               <img
-                src={allysse}
-                alt="Allysse"
+  src={allysse}
+  alt="Allysse"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
               />
@@ -78,7 +77,7 @@ I create visual and motion design work while exploring and learning along the wa
 
             <div className="flex flex-col sm:flex-row items-center gap-6 pt-6">
              <motion.a
-  href={cv}
+  href="/Allysse-Resume.pdf"
   target="_blank"
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}
