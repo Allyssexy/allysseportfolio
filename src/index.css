@@ -1,10 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,400&display=swap');
 
-body {
-  font-family: 'Inter', sans-serif;
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-dopa-pink: #FF3399;
+  --color-dopa-yellow: #FFCC00;
+  --color-dopa-blue: #3399FF;
+  --color-dopa-green: #33CC99;
+  --color-dopa-purple: #9933FF;
+  --color-dopa-bg: #FFFFFF;
+  --color-dopa-text: #0F172A;
 }

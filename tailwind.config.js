@@ -14,10 +14,6 @@ export default {
         "dopa-bg": "#FFFFFF",
         "dopa-text": "#0F172A",
       },
-      fontFamily: {
-        serif: ["Playfair Display", "serif"],
-        sans: ["Inter", "sans-serif"],
-      },
     },
   },
   plugins: [],
