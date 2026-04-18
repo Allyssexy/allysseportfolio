@@ -29,14 +29,15 @@ export const Navbar = () => {
               {item.name}
             </a>
           ))}
-          <a 
-  href="/Resume.pdf"
+       <motion.a 
+  href="https://drive.google.com/uc?export=download&id=1ks2FoK-Ql7iZCAtq4cH3CoPHD3M5JU8d"
   target="_blank"
   rel="noopener noreferrer"
-  className="px-5 py-2 bg-dopa-purple text-white text-[10px] font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-transform"
+  whileHover={{ scale: 1.05 }}
+  className="px-5 py-2 bg-dopa-purple text-white text-[10px] font-black uppercase tracking-widest rounded-xl transition-transform"
 >
   View My CV
-</a>
+</motion.a>
         </div>
       </div>
 

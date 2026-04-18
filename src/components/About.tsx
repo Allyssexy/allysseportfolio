@@ -77,11 +77,11 @@ I create visual and motion design work while exploring and learning along the wa
 
             <div className="flex flex-col sm:flex-row items-center gap-6 pt-6">
              <motion.a
-  href="/Resume.pdf"
+  href="https://drive.google.com/uc?export=download&id=1ks2FoK-Ql7iZCAtq4cH3CoPHD3M5JU8d"
   target="_blank"
+  rel="noopener noreferrer"
   whileHover={{ scale: 1.05 }}
-  whileTap={{ scale: 0.95 }}
-  className="px-8 py-4 bg-dopa-text text-white rounded-2xl font-black uppercase tracking-widest text-[10px] shadow-xl hover:bg-dopa-pink transition-colors"
+  className="px-5 py-2 bg-dopa-purple text-white text-[10px] font-black uppercase tracking-widest rounded-xl transition-transform"
 >
   View My CV
 </motion.a>
