@@ -30,7 +30,7 @@ export const Navbar = () => {
             </a>
           ))}
        <motion.a 
-  href="https://drive.google.com/uc?export=download&id=1ks2FoK-Ql7iZCAtq4cH3CoPHD3M5JU8d"
+  href="https://drive.google.com/file/d/1ks2FoK-Ql7iZCAtq4cH3CoPHD3M5JU8d/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   whileHover={{ scale: 1.05 }}
