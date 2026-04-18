@@ -67,7 +67,10 @@ import Doveinfographic from "./assets/Dove.jpg";
 import DRP from "./assets/DRP.png";
 import Burger from "./assets/Burger.mp4";
 import Burgerthumbnail from "./assets/Burgerthumbnail.png";
-
+import Model1 from "./assets/Model1.jpg";
+import Model2 from "./assets/Model2.jpg";
+import Model3 from "./assets/Model3.jpg";
+import Model4 from "./assets/Model4.jpg";
 
 export const CATEGORIES: Category[] = ['All', 'Graphic Design', 'Photography', 'Motion Graphics', 'Web Design'];
 
@@ -193,13 +196,21 @@ export const PROJECTS: Project[] = [
     { type: "video", src: Burger }
   ]
   },
-
+{
+    id: '13',
+    title: 'Connect to Nature',
+    category: 'Photography',
+    tools: ['Canon EOS 1500D'],
+    concept: 'A model reconnects with nature, blending naturally into the environment',
+   image: Model3,
+    gallery: [Model1, Model2, Model4]
+  },
 ];
 
 export const EXPERIENCES: Experience[] = [
   {
     period: '2023 - Present',
-    title: 'Bachelor Honours of Graphic Design & Multimedia',
+    title: 'Bachelor Degree of Graphic Design & Multimedia',
     company: 'UTAR, Sungai Long',
     description: 'Continuously developing my skills in graphic design, motion graphics, and web design through academic projects and hands-on practice. Exploring typography, layout, and visual storytelling while improving problem-solving and design thinking throughout my studies'
   }
