@@ -77,7 +77,7 @@ I create visual and motion design work while exploring and learning along the wa
 
             <div className="flex flex-col sm:flex-row items-center gap-6 pt-6">
              <motion.a
-  href="/Allysse-Resume.pdf"
+  href="/Resume.pdf"
   target="_blank"
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}

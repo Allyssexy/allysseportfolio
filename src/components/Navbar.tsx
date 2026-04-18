@@ -30,7 +30,7 @@ export const Navbar = () => {
             </a>
           ))}
           <a 
-  href="/Allysse-Resume.pdf"
+  href="/Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-5 py-2 bg-dopa-purple text-white text-[10px] font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-transform"
